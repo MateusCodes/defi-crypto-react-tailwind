@@ -1,11 +1,11 @@
 import React from 'react';
-import Terminal from '../assets/Terminal.png';
+import terminal from '../assets/Terminal.png';
 
 const Developers = () => {
   return (
     <section id="community" className="w-full text-white bg-black">
       <div className="max-w-[1240px] mx-auto px-4 py-16 flex flex-col md:flex-row">
-        <div className='flex justify-center items-center flex-col text-center'>
+        <div className="flex justify-center items-center flex-col text-center">
           <h1>Superpowers for DeFi developers.</h1>
           <p>
             Checkout the <span className="text-[#00d8ff]">documentation</span>,
@@ -14,8 +14,12 @@ const Developers = () => {
             billions of liquidity
           </p>
         </div>
-        <div className='flex justify-center w-full py-16'>
-          <img className='max-w-[250px] shadow-lg shadow-cyan-500/50' src={Terminal} alt="/" />
+        <div className="flex justify-center w-full py-16">
+          <img
+            className="max-w-[250px] shadow-lg shadow-cyan-500/50"
+            src={terminal}
+            alt="/"
+          />
         </div>
       </div>
     </section>
