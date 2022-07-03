@@ -1,4 +1,4 @@
-# NotesApp
+# DeFi Project with TailwindCSS and React
 
 [Check project](https://mateuscodes.github.io/defi-crypto-react-tailwind/)
 
