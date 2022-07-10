@@ -1,5 +1,5 @@
 import React from 'react';
-import terminal from '../assets/Terminal.png';
+import terminal from '../assets/terminal.png';
 
 const Developers = () => {
   return (
